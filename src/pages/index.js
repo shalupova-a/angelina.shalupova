@@ -26,7 +26,7 @@ export default function Home() {
             <MeComponent/>
           </Grid>
           <Grid item lg align="left">
-            <p class="tagline">hello! i'm angelina—
+            <p className="tagline">hello! i'm angelina—
               student and aspiring developer.</p>
           </Grid>
       </Grid>

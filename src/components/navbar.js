@@ -7,9 +7,9 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function NavBarComponent() {
     return (
         <div>
-            <AppBar class="nav" position="static" color="transparent">
+            <AppBar className="nav" position="static" color="transparent">
                 <Toolbar>
-                    <Typography class="nav-title">
+                    <Typography className="nav-title">
                         angelina shalupova
                     </Typography>
                 </Toolbar>

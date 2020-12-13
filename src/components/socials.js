@@ -22,7 +22,7 @@ const SocialsComponent = () =>
                     <LinkedInIcon className="social-icon"/>
                 </a>
             </Grid>
-            <Grid item alignItems="right">
+            <Grid item>
                 <a href="mailto:shalupova.a@northeastern.edu">
                     <EmailIcon className="social-icon"/>
                 </a>
