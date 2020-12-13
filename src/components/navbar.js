@@ -1,7 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import {AppBar, Toolbar, Typography, Button, useScrollTrigger, Slide, PropTypes, CssBaseline} from "@material-ui/core";
-import { Link, animateScroll as scroll } from "react-scroll";
+import {AppBar, Toolbar, Typography} from "@material-ui/core";
 
 
 export default function NavBarComponent() {

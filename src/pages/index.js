@@ -1,6 +1,5 @@
 import React from "react"
 import './index.css'
-import ProjectsComponent from "../components/projects"
 import AboutComponent from "../components/about"
 import NavBarComponent from "../components/navbar";
 import {Container, Grid} from "@material-ui/core"

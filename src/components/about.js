@@ -1,6 +1,4 @@
 import React from "react";
-import {Typography} from "@material-ui/core";
-import SocialsComponent from "./socials";
 
 const AboutComponent = () =>
     <div id="about">
