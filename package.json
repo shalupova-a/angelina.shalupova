@@ -23,6 +23,7 @@
     "avataaars": "^1.2.1",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.28.2",
+    "material-ui-icons": "^1.0.0-beta.36",
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
