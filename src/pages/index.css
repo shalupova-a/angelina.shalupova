@@ -58,10 +58,6 @@ a, a:link, a:visited {
     background-image: linear-gradient(#bedef7, white);
 }
 
-Appbar {
-    color: transparent;
-    box-shadow: none;
-}
 
 Grid {
     padding-top: 50px;
@@ -75,12 +71,8 @@ Grid {
 
 
 .nav-title {
-    padding-left:10px
-}
-
-.nav{
-    display: flex;
-    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
 }
 
 
