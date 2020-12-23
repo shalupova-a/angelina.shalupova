@@ -5,6 +5,7 @@ import NavBarComponent from "../components/navbar";
 import {Container, Grid} from "@material-ui/core"
 import MeComponent from "../components/me";
 import SkillsComponent from "../components/skills";
+import SocialsComponent from "../components/socials";
 
 export default function Home() {
   return <Container fixed id="home">
@@ -35,7 +36,7 @@ export default function Home() {
         <Grid item lg align="right">
           <SkillsComponent/>
           <br/>
-          {/*<SocialsComponent/>*/}
+          <SocialsComponent/>
         </Grid>
         <Grid item lg align="left">
           <AboutComponent/>
