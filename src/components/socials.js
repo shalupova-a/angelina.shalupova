@@ -1,8 +1,6 @@
 import React from "react";
 import {Grid} from "@material-ui/core"
-import EmailIcon from "@material-ui/icons/Email"
-import GithubIcon from "@material-ui/icons/Github"
-import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa"
 
 const SocialsComponent = () =>
     <div id="socials">
@@ -14,17 +12,17 @@ const SocialsComponent = () =>
             alignItems="flex-start">
             <Grid item>
                 <a href="https://github.com/shalupova-a">
-                    <GithubIcon className="social-icon"/>
+                    <FaGithub className="social-icon" size={25}/>
                 </a>
             </Grid>
             <Grid item>
                 <a href="https://www.linkedin.com/in/angelina-shalupova-84101415a">
-                    <LinkedInIcon className="social-icon"/>
+                    <FaLinkedin className="social-icon" size={25}/>
                 </a>
             </Grid>
             <Grid item>
                 <a href="mailto:shalupova.a@northeastern.edu">
-                    <EmailIcon className="social-icon"/>
+                    <FaEnvelope className="social-icon" size={25}/>
                 </a>
             </Grid>
         </Grid>
