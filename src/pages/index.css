@@ -2,8 +2,9 @@
     font-family: 'noto-sans-font-reg';
     src: url("../fonts/NotoSans/NotoSans-Regular.ttf");
 }
-.body {
-    background-color: #F6EEE0;
+
+html {
+    background-image: linear-gradient(#bedef7, white);
 }
 
 .title {
@@ -36,11 +37,12 @@
     width: 33.33%
 }
 
-p, Typography {
+p, Typography, h1 {
     font-family: 'noto-sans-font-reg';
-    color: #4c5461;
+    color: gray;
     font-size: 18px;
     text-decoration: none;
+    text-transform: none;
 }
 
 .tagline, .nav-title {
@@ -55,12 +57,13 @@ a, a:link, a:visited {
 #home {
     padding-right: 100px;
     padding-left: 100px;
-    background-image: linear-gradient(#bedef7, white);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 
 Grid {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -69,11 +72,15 @@ Grid {
     padding-left: 10px;
 }
 
+.nav-item {
+    text-align: center;
+}
 
 .nav-title {
     padding-top: 20px;
     text-align: center;
 }
+
 
 
 
