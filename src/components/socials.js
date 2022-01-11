@@ -4,7 +4,6 @@ import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa"
 
 const SocialsComponent = () =>
     <div id="socials">
-        <p className="subtitle">connect with me!</p>
         <Grid
             container
             item
