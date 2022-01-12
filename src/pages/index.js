@@ -22,7 +22,7 @@ export default function Home() {
           <Grid item lg align="center">
             <MeComponent/>
           </Grid>
-          <Grid item lg align="center">
+          <Grid item lg align="left">
             <p className="tagline">hello! i'm angelina—
               student and aspiring developer.</p>
             <SocialsComponent/>
@@ -35,7 +35,7 @@ export default function Home() {
         <Grid item lg align="center">
           <p className="title">about me</p>
         </Grid>
-        <Grid item lg align="center">
+        <Grid item lg align="left">
           <AboutComponent/>
         </Grid>
       </Grid>
@@ -49,7 +49,7 @@ export default function Home() {
       <Grid item lg align="center">
         <p className={"title"}>projects</p>
       </Grid>
-      <Grid item lg align="center">
+      <Grid item lg align="left">
         <ProjectsComponent/>
       </Grid>
     </Grid>
