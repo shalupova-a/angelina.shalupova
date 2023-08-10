@@ -1,6 +1,6 @@
 import React from "react";
 import "../pages/index.css"
-import {Typography, Divider, IconButton, List, ListItem, ListItemAvatar, ListItemText} from "@material-ui/core";
+import {Typography, Divider, IconButton, List, ListItem, ListItemAvatar, ListItemText} from "@mui/material";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLink} from "@fortawesome/free-solid-svg-icons";
 

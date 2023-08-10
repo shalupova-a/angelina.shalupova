@@ -1,8 +1,8 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import {IconButton, Typography, Accordion, AccordionDetails, AccordionSummary} from "@material-ui/core"
-import {ExpandMore} from "@material-ui/icons";
+import {IconButton, Typography, Accordion, AccordionDetails, AccordionSummary} from "@mui/material"
+import {ExpandMore} from "@mui/icons-material";
 
 const AccordionItem = (props) =>
         <Accordion style={{backgroundColor: "#f7fcff", width: '85%'}}>

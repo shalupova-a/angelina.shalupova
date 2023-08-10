@@ -1,7 +1,7 @@
 import React from "react"
 import './index.css'
 import AboutComponent from "../components/about"
-import {Container, Grid} from "@material-ui/core"
+import {Container, Grid} from "@mui/material"
 import MeComponent from "../components/me";
 import SocialsComponent from "../components/socials";
 import ProjectsComponent from "../components/projects";
