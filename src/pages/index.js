@@ -1,9 +1,9 @@
 import React from "react"
 import './index.css'
-import AboutComponent from "../components/about"
+import About from "../components/about"
 import {Container, Grid} from "@mui/material"
-import SocialsComponent from "../components/socials";
-import ProjectsComponent from "../components/projects";
+import Socials from "../components/socials";
+import Projects from "../components/projects";
 
 export default function Home() {
   return <Container fixed id="home">
@@ -21,7 +21,7 @@ export default function Home() {
           <Grid item lg align="left">
             <p className="tagline">hello! i'm angelina—
               student and aspiring developer.</p>
-            <SocialsComponent/>
+            <Socials/>
           </Grid>
       </Grid>
       <Grid
@@ -32,7 +32,7 @@ export default function Home() {
           <p className="title">about me</p>
         </Grid>
         <Grid item lg align="left">
-          <AboutComponent/>
+          <About/>
         </Grid>
       </Grid>
     </Grid>
@@ -46,7 +46,7 @@ export default function Home() {
         <p className={"title"}>projects</p>
       </Grid>
       <Grid item lg align="left">
-        <ProjectsComponent/>
+        <Projects/>
       </Grid>
     </Grid>
   </Container>

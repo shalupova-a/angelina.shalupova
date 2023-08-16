@@ -1,6 +1,7 @@
 import React from "react"
 
-const ErrorComponent = () =>
+// TODO: make better
+const Error = () =>
     <p>404</p>
 
-export default ErrorComponent
+export default Error

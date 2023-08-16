@@ -2,7 +2,7 @@ import React from "react";
 import {Grid} from "@mui/material"
 import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa"
 
-const SocialsComponent = () =>
+const Socials = () =>
     <div id="socials">
         <Grid
             container
@@ -29,4 +29,4 @@ const SocialsComponent = () =>
         <br/>
     </div>
 
-export default SocialsComponent
+export default Socials

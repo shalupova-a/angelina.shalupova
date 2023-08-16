@@ -25,7 +25,7 @@ const AccordionItem = (props) =>
             </AccordionDetails>
         </Accordion>
 
-const ProjectsComponent = () =>
+const Projects = () =>
     <div id="projects">
             <AccordionItem title={"personal website"} language={"GatsbyJS, MaterialUI, HTML/CSS, JS"} body={"You're looking at it! For this project, my goals were to create a simple, one-page website that is both\n" +
             "desktop and mobile-friendly (WIP)."} link={"https://github.com/shalupova-a/angelina.shalupova"}/>
@@ -34,4 +34,4 @@ const ProjectsComponent = () =>
             <AccordionItem title={"snarl game"} language={"Java"} body={"This project was a group effort for CS4500 - Software Development. This is a server-client 2D dungeon crawler game!"} link={"https://github.com/shalupova-a/Snarl"}/>
     </div>
 
-export default ProjectsComponent
+export default Projects
