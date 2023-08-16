@@ -1,6 +1,6 @@
 import React from "react";
 import {Grid} from "@mui/material"
-import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa"
+import {FaGithub, FaLinkedin, FaEnvelope, FaFileAlt} from "react-icons/fa"
 
 const Socials = () =>
     <div id="socials">
@@ -8,7 +8,8 @@ const Socials = () =>
             container
             item
             justify="space-evenly"
-            alignItems="flex-start">
+            align="right"
+            spacing={4}>
             <Grid item>
                 <a href="https://github.com/shalupova-a">
                     <FaGithub className="social-icon" size={25}/>
@@ -17,6 +18,11 @@ const Socials = () =>
             <Grid item>
                 <a href="https://www.linkedin.com/in/angelina-shalupova-84101415a">
                     <FaLinkedin className="social-icon" size={25}/>
+                </a>
+            </Grid>
+            <Grid item>
+                <a href="https://ashalupova-resume.tiiny.site">
+                    <FaFileAlt size={25} />
                 </a>
             </Grid>
             <Grid item>
