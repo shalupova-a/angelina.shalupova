@@ -40,13 +40,20 @@ html {
 p, Typography, h1 {
     font-family: 'noto-sans-font-reg';
     color: gray;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: none;
 }
 
+.button {
+    font-family: 'noto-sans-font-reg';
+    color: #25557c;
+    text-transform: none;
+    font-size: 20px;
+}
+
 .tagline, .nav-title {
-    font-size: 30px;
+    font-size: 40px;
     color: #25557c;
 }
 
@@ -80,10 +87,3 @@ Grid {
     padding-top: 20px;
     text-align: center;
 }
-
-
-
-
-
-
-
