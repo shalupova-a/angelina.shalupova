@@ -3,25 +3,15 @@ import './index.css'
 import About from "../components/about"
 import { Container } from "@mui/material"
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
-import Socials from "../components/socials";
 import Projects from "../components/projects";
 import Nav from "../components/nav";
+import Landing from "../components/landing";
 
 export default function Home() {
   return (
     <Container>
-      <Nav/ >
-      <Grid
-        container
-        item
-        spacing={3}
-        sp
-      >
-        <Grid item align="left">
-          <p className="tagline">hello there! i'm angelina</p>
-          <Socials />
-        </Grid>
-      </Grid>
+      <Nav />
+      <Landing />
       <Grid
         container
         item
@@ -46,5 +36,5 @@ export default function Home() {
           <Projects />
         </Grid>
       </Grid>
-    </Container>);
+    </Container >);
 }
