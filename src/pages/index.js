@@ -14,25 +14,23 @@ export default function Home() {
       <Landing />
       <Grid
         container
-        item
         justify="space-evenly" spacing={3}>
-        <Grid item>
+        <Grid>
           <p className="title">about me</p>
         </Grid>
-        <Grid item>
+        <Grid>
           <About />
         </Grid>
       </Grid>
       <Grid
         container
-        item
         justify="space-evenly"
         alignItems="center"
         spacing={3}>
-        <Grid item>
+        <Grid>
           <p className={"title"}>projects</p>
         </Grid>
-        <Grid item align="left">
+        <Grid align="left">
           <Projects />
         </Grid>
       </Grid>
