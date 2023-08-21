@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () =>
-    <div id={"about"}>
+    <div id="about">
         <p>
         i’m currently a software developer at <a href={"https://www.bitgo.com/"}>BitGo</a> in Palo Alto and a recent grad from <a href={"https://northeastern.edu"}>Northeastern University</a>. </p>
 
