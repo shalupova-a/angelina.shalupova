@@ -2,6 +2,7 @@ import React from "react";
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { Divider } from '@mui/material';
 
+import Reveal from './animation/reveal';
 import Socials from './socials';
 
 const Landing = () =>
@@ -13,14 +14,20 @@ const Landing = () =>
         <Grid>
             <Grid align="left">
                 <Grid>
-                    <p className="tagline">Hello there! I'm Angelina</p>
+                    <Reveal>
+                        <p className="tagline">Hello there! I'm Angelina</p>
+                    </Reveal>
                 </Grid>
             </Grid>
             <Grid align="left" xs={6}>
-                <p>I’m a full-stack developer based in the Bay Area and recent alum of Northeastern University. Let’s connect!</p>
+                <Reveal>
+                    <p>I’m a full-stack developer based in the Bay Area and recent alum of Northeastern University. Let’s connect!</p>
+                </Reveal>
             </Grid>
             <Grid align="left" xs={7}>
-                <Socials />
+                <Reveal>
+                    <Socials />
+                </Reveal>
             </Grid>
 
         </Grid>
