@@ -26,7 +26,7 @@ const Socials = () =>
                 </a>
             </Grid>
             <Grid item>
-                <a href="mailto:shalupova.a@northeastern.edu">
+                <a href="mailto:a.shalupova@gmail.com">
                     <FaEnvelope className="social-icon" size={25}/>
                 </a>
             </Grid>
