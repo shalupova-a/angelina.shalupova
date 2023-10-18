@@ -6,12 +6,12 @@ const Nav = () =>
         <Toolbar>
             <div style={{ marginLeft: 'auto' }}>
                 <Link to="about">
-                    <Button className="button" size="large">
+                    <Button className="button nav-button" size="large">
                         about
                     </Button>
                 </Link>
                 <Link to="projects">
-                    <Button className="button" size="large">
+                    <Button className="button nav-button" size="large">
                         projects
                     </Button>
                 </Link>

@@ -4,12 +4,17 @@
 }
 
 html {
-    background-image: linear-gradient(#bedef7, white);
+    background-color: #fff7e8;
+}
+
+.nav {
+    background-color: #fff7e8;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 35px;
     color: #25557c;
+    margin-bottom: 5%;
 }
 
 .col {
@@ -36,7 +41,10 @@ h1 {
     font-family: 'noto-sans-font-reg';
     color: #25557c;
     text-transform: none;
-    font-size: 20px;
+}
+
+.nav-button {
+    font-size: 15px;
 }
 
 .tagline,
@@ -50,6 +58,11 @@ a,
 a:link,
 a:visited {
     color: #25557c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #home {
