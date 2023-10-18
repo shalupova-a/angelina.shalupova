@@ -17,6 +17,10 @@ html {
     margin-bottom: 5%;
 }
 
+.card-title {
+    color: #25557c;
+}
+
 .col {
     float: left;
     width: 33.33%
@@ -44,7 +48,7 @@ h1 {
 }
 
 .nav-button {
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .tagline,
@@ -85,4 +89,8 @@ a:hover {
 .nav-title {
     padding-top: 20px;
     text-align: center;
+}
+
+.card {
+    background-color: #fffbf2;
 }
