@@ -2,7 +2,7 @@ import { AppBar, Button, Toolbar } from "@mui/material";
 import { Link } from 'react-scroll'
 import React from "react"
 const Nav = () =>
-    <AppBar position="sticky" color="transparent" elevation={0}>
+    <AppBar className="nav" position="sticky" elevation={0}>
         <Toolbar>
             <div style={{ marginLeft: 'auto' }}>
                 <Link to="about">
