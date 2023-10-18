@@ -1,6 +1,6 @@
 import React from "react";
 import "../pages/index.css"
-import {Typography, Divider, IconButton, List, ListItem, ListItemAvatar, ListItemText} from "@material-ui/core";
+import {Typography, Divider, IconButton, List, ListItem, ListItemAvatar, ListItemText} from "@mui/material";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLink} from "@fortawesome/free-solid-svg-icons";
 
@@ -14,7 +14,7 @@ const ExperienceItem = (props) =>
         <ListItemText primary={<Typography>{props.title}</Typography>} secondary={props.date} />
     </ListItem>
 
-const ExperienceComponent = () =>
+const Experience = () =>
         <List dense style={{borderRadius: '4px', backgroundColor: 'white', width: '85%'}}>
             <ExperienceItem title={"Full-Stack Developer Co-op/Intern at Wellframe"} date={"2021-present"}link={"https://wellframe.com"}/>
             <Divider variant="inset" component="li"/>
@@ -27,4 +27,4 @@ const ExperienceComponent = () =>
             <ExperienceItem title={"Fundamentals of Computer Science I TA"} date={"2018-2019"} link={"https://course.ccs.neu.edu/cs2500/"}/>
         </List>
 
-export default ExperienceComponent
+export default Experience

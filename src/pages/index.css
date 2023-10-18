@@ -4,32 +4,21 @@
 }
 
 html {
-    background-image: linear-gradient(#bedef7, white);
+    background-color: #fff7e8;
+}
+
+.nav {
+    background-color: #fff7e8;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 35px;
     color: #25557c;
+    margin-bottom: 5%;
 }
 
-.subtitle {
-    font-size: 20px;
+.card-title {
     color: #25557c;
-    padding-right: 27px;
-}
-
-.prof {
-    height: 206px;
-    width: 226px;
-    border-radius: 15px;
-}
-
-.me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
 }
 
 .col {
@@ -37,21 +26,47 @@ html {
     width: 33.33%
 }
 
-p, Typography, h1 {
+p,
+Typography,
+h1 {
     font-family: 'noto-sans-font-reg';
     color: gray;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     text-transform: none;
 }
 
-.tagline, .nav-title {
-    font-size: 30px;
-    color: #25557c;
+.divider {
+    border-right-width: 3px;
+    background-color: #25557c;
 }
 
-a, a:link, a:visited {
+.button {
+    font-family: 'noto-sans-font-reg';
     color: #25557c;
+    text-transform: none;
+}
+
+.nav-button {
+    font-size: 25px;
+}
+
+.tagline,
+.nav-title {
+    font-size: 50px;
+    color: #25557c;
+    margin: 0;
+}
+
+a,
+a:link,
+a:visited {
+    color: #25557c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #home {
@@ -61,13 +76,8 @@ a, a:link, a:visited {
     padding-bottom: 60px;
 }
 
-
-Grid {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-.nav-item, .chip-item {
+.nav-item,
+.chip-item {
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -81,9 +91,6 @@ Grid {
     text-align: center;
 }
 
-
-
-
-
-
-
+.card {
+    background-color: #fffbf2;
+}
