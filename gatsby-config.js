@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [`@iostindex/gatsby-plugin-material-ui`],
 }
