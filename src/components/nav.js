@@ -4,7 +4,7 @@ import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
 import Toolbar from '@mui/material/Toolbar';
 
-export default function Nav() {
+const Nav = () => {
     return <AppBar className="nav" elevation={0} position="sticky">
             <Toolbar>
                 <div style={{ marginLeft: 'auto' }}>
@@ -22,3 +22,5 @@ export default function Nav() {
             </Toolbar>
         </AppBar>
 }
+
+export default Nav;
