@@ -7,23 +7,10 @@ html {
     background-color: #fff7e8;
 }
 
-.nav {
-    background-color: #fff7e8;
-}
-
 .title {
     font-size: 35px;
     color: #25557c;
     margin-bottom: 5%;
-}
-
-.card-title {
-    color: #25557c;
-}
-
-.col {
-    float: left;
-    width: 33.33%
 }
 
 p,
@@ -51,8 +38,7 @@ h1 {
     font-size: 25px;
 }
 
-.tagline,
-.nav-title {
+.tagline {
     font-size: 50px;
     color: #25557c;
     margin: 0;
@@ -74,23 +60,4 @@ a:hover {
     padding-left: 100px;
     padding-top: 60px;
     padding-bottom: 60px;
-}
-
-.nav-item,
-.chip-item {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.nav-item {
-    text-align: center;
-}
-
-.nav-title {
-    padding-top: 20px;
-    text-align: center;
-}
-
-.card {
-    background-color: #fffbf2;
 }

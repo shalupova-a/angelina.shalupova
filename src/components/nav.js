@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import Toolbar from '@mui/material/Toolbar';
 
 const Nav = () => {
-    return <AppBar className="nav" elevation={0} position="sticky">
+    return <AppBar sx={{backgroundColor: '#fff7e8'}} elevation={0} position="sticky">
             <Toolbar>
                 <div style={{ marginLeft: 'auto' }}>
                     <Link to="about">

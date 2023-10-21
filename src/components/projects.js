@@ -6,9 +6,11 @@ import Reveal from './animation/reveal';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 const CardItem = (props) =>
-    <Card className="card">
+    <Card sx={{
+        backgroundColor: '#fffbf2'
+    }}>
         <CardContent>
-            <Typography className="card-title" variant="h5">{props.title}</Typography>
+            <Typography sx={{ color: '#25557c' }} variant="h5">{props.title}</Typography>
             <Typography sx={{ mb: 1.5 }} color="text.secondary">
                 {props.language}
             </Typography>
