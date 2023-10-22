@@ -6,5 +6,8 @@
 
 module.exports = {
   /* Your site config here */
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [`@iostindex/gatsby-plugin-material-ui`],
 }
