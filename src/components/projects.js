@@ -4,13 +4,14 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Card, CardContent, CardActions, IconButton, Typography } from "@mui/material"
 import Reveal from './animation/reveal';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import { COLORS } from "../utils/colors";
 
 const CardItem = (props) =>
     <Card sx={{
-        backgroundColor: '#fffbf2'
+        backgroundColor: COLORS.lightBeigeTheme
     }}>
         <CardContent>
-            <Typography sx={{ color: '#25557c' }} variant="h5">{props.title}</Typography>
+            <Typography sx={{ color: COLORS.blueTheme }} variant="h5">{props.title}</Typography>
             <Typography sx={{ mb: 1.5 }} color="text.secondary">
                 {props.language}
             </Typography>

@@ -10,7 +10,6 @@ import Landing from "../components/landing";
 export default function Home() {
   return (
     <StyledEngineProvider injectFirst>
-
       <Container>
         <Nav />
         <Landing />
