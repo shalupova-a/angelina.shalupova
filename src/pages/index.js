@@ -1,5 +1,4 @@
 import React from "react"
-import { StyledEngineProvider } from '@mui/material/styles'
 import './index.css'
 import { Container } from "@mui/material"
 import About from "../components/about"
@@ -9,12 +8,11 @@ import Landing from "../components/landing";
 
 export default function Home() {
   return (
-    <StyledEngineProvider injectFirst>
-      <Container>
-        <Nav />
-        <Landing />
-        <About />
-        <Projects />
-      </Container >
-    </StyledEngineProvider>);
+    <Container>
+      <Nav />
+      <Landing />
+      <About />
+      <Projects />
+    </Container >
+  );
 }
